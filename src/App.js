@@ -13,7 +13,18 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Alyssa Mirra </small>
+          <small>
+            This project was coded by Alyssa Mirra, is{" "}
+            <a href="https://github.com/AlyssaM12/dictionary-project">
+              {" "}
+              open-sourced{" "}
+            </a>{" "}
+            and hosted on
+            <a href="https://stunning-arithmetic-0516f0.netlify.app/">
+              {" "}
+              Netlify{" "}
+            </a>
+          </small>
         </footer>
       </div>
     </div>
